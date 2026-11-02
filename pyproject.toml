@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hook4521-asr_jd280"
+name = "hook4521-mixed_precision_overflow_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出语音识别算法工程师·混合精度的溢出与下溢上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://hook4521.github.io"
-Repository = "https://github.com/hook4521/asr_jd280"
-Issues = "https://github.com/hook4521/asr_jd280/issues"
+Repository = "https://github.com/hook4521/mixed_precision_overflow_grouping"
+Issues = "https://github.com/hook4521/mixed_precision_overflow_grouping/issues"
 
 [project.scripts]
-asr_jd280 = "asr_jd280:main"
+mixed_precision_overflow_grouping = "mixed_precision_overflow_grouping:main"
 
 [tool.setuptools]
-py-modules = ["asr_jd280"]
+py-modules = ["mixed_precision_overflow_grouping"]
